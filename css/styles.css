@@ -1,0 +1,263 @@
+.logo{
+  width:90px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.site-header__wrapper {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+
+}
+
+/* .site-header{
+} */
+
+/* margin-left: auto; */
+
+.fixed{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 20px; 
+  margin-left: auto;
+}
+
+  .wrapper ul{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  .wrapper li{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+
+  }
+
+  .wrapper a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+/* body */
+.intro1{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 35px;
+}
+.intro2{
+  width: 75%;
+}
+
+.social_media{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social_media img{
+  margin: 0px 10px 10px 0px;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+
+.arrow img{
+  width: 25px;
+  margin: 15px;
+}
+
+/* grid */
+
+.main-content {
+  padding: 10%;
+  flex: 1 1 80%;
+  min-height: 100vh;
+}
+
+.portfolio {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  
+}
+
+.portfolio-item{
+  grid-row: span 1;
+  grid-column: span 1;
+  aspect-ratio: 1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.film-spelunker{
+  background-image: url('../img/pictures/filmspelunker1.png');
+}
+
+.pokedex{
+  background-image: url('../img/pictures/pokedex.png');
+ 
+}
+
+.spiderchat{
+  background-image: url('../img/pictures/spiderchat1.png');
+  background-size: 25%;
+  background-position-y: center;
+ 
+}
+
+.tresv{
+  background-image: url('../img/pictures/tresv1.png');
+  background-position: center;
+  background-size: cover; 
+
+}
+
+.grupova{
+  background-image: url('../img/pictures/grupova3.png');
+  grid-row: span 1;
+  grid-column: span 1;
+  aspect-ratio: 1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+
+
+/* Individual projects */
+
+.portfolio-Description{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-Description h1,h2,h3,h4{
+ margin:auto;
+ margin-bottom: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.portfolio-Description h1{
+  font-size: 24px;
+}
+
+.portfolio-Description h2{
+  font-size: 12px;
+}
+
+.portfolio-Description h3{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.portfolio-body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-bottom: 80px;
+}
+
+.portfolio-body img{
+  width: 80%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+}
+
+.spider img{
+  border-style: none;
+}
+
+@media (max-width: 720px){
+
+  .site-header{
+    display: flex;
+    justify-content: center;
+
+  }
+  .logo{
+    width:90px;
+    margin-left: 0px;
+    margin-top: 45px;    
+
+  }
+
+  .fixed{
+    top: 10px; 
+  }
+
+  .wrapper ul{
+    margin-right: 0px;
+  }
+
+  .site-header__wrapper {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .intro2{
+    width: 98%;
+  }
+
+  .arrow{
+    display: none;
+   }
+
+   .social_media{
+    bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  /* GRID */
+  .main-content {
+    padding: 3%;
+    flex: 1 1 95%;
+    min-height: 100vh;
+  }
+  
+  .portfolio {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+  }
+
+  /* PROJECTS */
+  .project1{
+    margin-top: 80px;
+  }
+  .portfolio-body img{
+    width: 95%;
+  }
+  .portfolio-Description h3{
+     width: 95%;
+   }
+}
