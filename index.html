@@ -42,29 +42,34 @@
 
 
   <div class="social_media">
-    <img src="img/facebook.svg" style="width:30px;" alt="facebook_link" class="facebook">
+    <a href="  https://www.facebook.com/profile.php?id=100009910692537" target="_blank">
+      <img src="img/facebook.svg" style="width:30px;" alt="facebook_link" class="facebook">
+    </a>
     <img src="img/twitter.svg" style="width:30px;" alt="twitter_link" class="twitter">
     <a href="https://github.com/Juan-Rodelo" target="_blank">
       <img src="img/github.svg" style="width:30px;" alt="instagram_link" class="github">
     </a>
-    <img src="img/linkedin.svg" style="width:30px;" alt="youtube_link" class="youtube">
+    <a href="https://www.linkedin.com/in/juan-rodelo-665b14131/" target="_blank">
+      <img src="img/linkedin.svg" style="width:30px;" alt="youtube_link" class="youtube">
+    </a>
   </div>
 
-  <div class="arrow">
+
+  <!-- <div class="arrow">
     <img src="img/arrow.svg">
-  </div>
+  </div> -->
 
   <div class="main-content" id="projects">
     <div class="portfolio">
-      <div class="portfolio-item film-spelunker" onclick="location.href='#myFlix';" style="cursor: pointer;">Film
-        Spelunker</div>
-      <div class="portfolio-item pokedex" onclick="location.href='#pokedex';" style="cursor: pointer;">two</div>
+      <div class="portfolio-item film-spelunker" onclick="location.href='#myFlix';" style="cursor: pointer;"></div>
+      <div class="portfolio-item pokedex" onclick="location.href='#pokedex';" style="cursor: pointer;"></div>
       <div class="portfolio-item spiderchat" onclick="location.href='#spider';" style="cursor: pointer;"></div>
-      <div class="portfolio-item4 ">four</div>
-      <div class="portfolio-item5 ">five</div>
-      <div class="portfolio-item tresv" onclick=" location.href='#tresv';" style="cursor: pointer;">six</div>
-      <div class="portfolio-item grupova" onclick=" location.href='#vinculova' ;" style="cursor: pointer;">7</div>
-      <div class="portfolio-item8 ">8</div>
+      <div class="portfolio-item film-spelunker-react" onclick="location.href='#spelunker2';" style="cursor: pointer;">
+      </div>
+      <div class="portfolio-item5 "></div>
+      <div class="portfolio-item tresv" onclick=" location.href='#tresv';" style="cursor: pointer;"></div>
+      <div class="portfolio-item grupova" onclick=" location.href='#vinculova' ;" style="cursor: pointer;"></div>
+      <div class="portfolio-item8 "></div>
     </div>
   </div>
 
@@ -76,7 +81,10 @@
     <h3>Film Spelunker is a film archive displaying data stored in a MongoDB database. The web application will
       provide users with access to information about different movies, directors, and genres.Users can create an
       account, view movie info, add to favorites and edit and delete their profile.</h3>
-    <h4><a href="https://github.com/Juan-Rodelo/myFlix-Angular">CODE</a></h4>
+    <div class="links">
+      <button><a href="https://github.com/Juan-Rodelo/myFlix-Angular">CODE</a></button>
+      <button><a href="https://juan-rodelo.githubiomyFlix-Angular">WEBSITE</a></button>
+    </div>
   </div>
 
   <div class="portfolio-body">
@@ -89,7 +97,9 @@
     <h2>JAVASCRIPT  | HTML  |  CSS | BOOTSTRAP</h2>
     <h3>A Pokemon database connecting to an online api, I populated the array and styled it with CSS. A list of Pokémon
       will be displayed when selecting a Pokemon you open a modal that displays more details. </h3>
-    <h4><a href="https://github.com/Juan-Rodelo/JavaScriptApp1">CODE</a></h4>
+    <div class="links">
+      <button><a href="https://github.com/Juan-Rodelo/JavaScriptApp1">CODE</a></button>
+    </div>
   </div>
 
   <div class="portfolio-body">
@@ -103,21 +113,42 @@
     <h3>A React Native app with a chat interface and options to share images as well as location. Users can add their
       name and choose four different background colors for the chat screen. Data is stored on the client-side and
       available when the user is offline. </h3>
-    <h4><a href="https://github.com/Juan-Rodelo/Chat-App">CODE</a></h4>
+    <div class="links">
+      <button><a href="https://github.com/Juan-Rodelo/Chat-App">CODE</a></button>
+    </div>
   </div>
 
   <div class="portfolio-body spider">
     <img src="img/pictures/spiderchat3.png" class="spider">
   </div>
 
+  <!-- FILM SPELUNKER -->
+  <div class="portfolio-Description" id="spelunker2">
+    <h1>FILM SPELUNKER REACT</h1>
+    <h2>REACT  | HTML  |  CSS</h2>
+    <h3>Film Spelunker is a film archive displaying data stored in a MongoDB database. The web application will provide
+      users with access to information about different movies, directors, and genres.Users can create an account, view
+      movie info, add to favorites and edit and delete their profile.</h3>
+    <div class="links">
+      <button><a href="https://github.com/Juan-Rodelo/myFlix">CODE</a></button>
+      <button><a href="https://film-spelunker.netlify.app/">WEBSITE</a></button>
+    </div>
+  </div>
+
+  <div class="portfolio-body spider">
+    <img src="img/pictures/filmspelunker2.png" class="spider">
+  </div>
+
   <!-- TRESVARQUITECTURA -->
   <div class="portfolio-Description" id="tresv">
     <h1>TresVarquitectura</h1>
     <h3>A portfolio website for an architectural and interior design firm in Bogotá, Colombia. </h3>
-    <h4><a href="http://tresvarquitectura.com/">Take me there</a></h4>
+    <div class="links">
+      <button><a href="http://tresvarquitectura.com/">CODE</a></button>
+    </div>
   </div>
 
-  <div class="portfolio-body ">
+  <div class="portfolio-body2 ">
     <img src="img/pictures/tresv.png">
   </div>
   <div class="portfolio-body ">
@@ -129,10 +160,13 @@
     <h2>HTML  |  CSS  |  BOOTSTRAP</h2>
     <h3>A website for a Colombian organization working with private institutions on the environment and sustainability.
       The webpage includes a blog, news, videos and an inventory of projects this organization is working on.</h3>
-    <h4><a href="http://grupova.com/">Take me there</a></h4>
+    <div class="links">
+      <button><a href="https://github.com/Juan-Rodelo/Pagina-Web-Va">CODE</a></button>
+      <button><a href="http://grupova.com/">WEBSITE</a></button>
+    </div>
   </div>
 
-  <div class="portfolio-body ">
+  <div class="portfolio-body2 ">
     <img src="img/pictures/grupova1.png">
   </div>
   <div class="portfolio-body ">
