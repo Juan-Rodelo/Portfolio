@@ -84,7 +84,7 @@
 .main-content {
   padding: 10%;
   flex: 1 1 80%;
-  min-height: 100vh;
+  min-height: 0vh;
 }
 
 .portfolio {
@@ -155,9 +155,13 @@
 
 /* Individual projects */
 
+.line{
+  margin-bottom: 50px;
+}
+
 .portfolio-Description{
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .portfolio-Description h1,h2,h3{
@@ -182,7 +186,6 @@
 
 .links{
   font-size: 15px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -216,7 +219,7 @@ cursor: pointer;
   display: flex;
   justify-content: center;
   align-items:center;
-  margin-bottom: 160px;
+  margin-bottom: 80px;
 }
 
 .portfolio-body2{
