@@ -359,7 +359,15 @@ cursor: pointer;
     grid-gap: 20px;
     
   }
+
+  .portfolio-item{
+    grid-row: span 1;
+    grid-column: span 1;
+    aspect-ratio: 1;
+  }
+
   .portfolio-item5{
+   
     display: none;
   }
 
